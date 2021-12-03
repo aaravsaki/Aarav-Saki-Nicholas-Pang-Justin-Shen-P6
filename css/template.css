@@ -1,0 +1,13 @@
+body {
+  background-image: linear-gradient(Purple, white);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
