@@ -16,6 +16,6 @@
   <body>
   <?php include_once 'template.php';?>
     <h2>The Divine Comedy</h2>
-    <script src="js/index.js"></script>
+    <script src="js/Counter Upper.js"></script>
   </body>
 </html>
