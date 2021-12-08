@@ -42,4 +42,4 @@
         </div>
       </div>
     </nav>
-    <h1>The Divine Comedy</h1>
+    
