@@ -31,4 +31,3 @@ function buyHeaven3() {
  document.getElementById("confirmTest").innerHTML = testOut; 
 };
 
-//New
