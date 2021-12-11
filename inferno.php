@@ -17,8 +17,20 @@
   <?php include_once 'template.php';?>
     <h1>Inferno</h1>
     <div style="text-align: center;">
-    <img src = "https://media.discordapp.net/attachments/700479408263397416/918000257755938827/-VBWvHn1Skz8LVzmcrTD4w2Fhellthumb800.png"
-    >
+    <img src = "https://media.discordapp.net/attachments/700479408263397416/918000257755938827/-VBWvHn1Skz8LVzmcrTD4w2Fhellthumb800.png">
+
+    <div id="toc_container">
+<p class="toc_title">Contents</p>
+<ul class="toc_list">
+  <li><a href="#Limbo">Limbo</a>
+ 
+</li>
+<li><a href="#Lust">Lust</a></li>
+<li><a href="#Gluttony">Gluttony</a></li>
+</ul>
+</div>
+
+
 </div>
     <script src="js/index.js"></script>
 
@@ -26,17 +38,17 @@
       <p>
         The first stop is Inferno. Here souls are punished for all of eternity based on their sins committed in life. The 9 Circles of Hell are separated based on the severity of sin and brutality of punishment. 
       </p>
-        <h2> Limbo </h2>
+        <h2 id="Limbo";> Limbo </h2>
 
-      <p class="one">
+      <p class="one"; >
         The first circle is one of mercy. Here lie the unbaptized and non-christian who have not sinned. Those that reside within this circle are not tormented and only grieve that they must live eternally without God’s Grace.
       </p>
-        <h2> Lust </h2>
+        <h2 id="Lust";> Lust </h2>
       <p class="one">
         The second circle subsumes those overcome by lust. They face fierce winds that throw them throughout the land. The winds prevent them from experiencing rest and peace. People of note include: Cleopatra, Achilles, and Helen of Troy.
 
       </p>
-        <h2> Gluttony </h2>
+        <h2 id="Gluttony";> Gluttony </h2>
       <p class="one">
         The third circle houses the most gluttonous of sinners. Cerberus is also found here acting as a warden. The punishment involves being rained on for all of eternity while laying in waste.
       </p>

@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(darkRed, black);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: Luminari, fantasy;
+  }
+  
+  h1 {
+    color: Gold;
+    font-size: 50px;
+    text-align: center;
+    font-family: Luminari, fantasy;
+  }
+  
+  h2 {
+    color: Silver;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  p {
+    margin-right: 700px;
+    margin-left: 700px;
+    color: silver;
+    text-align: center;
+  }
+  
+  .one {
+    font-size: 18px;
+    text-align: center;
+  }
+  
