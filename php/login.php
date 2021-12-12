@@ -1,16 +1,16 @@
 <?php
-// Initialize the session
-session_start();
+
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: index.php");
+    header("location: inferno.php");
     exit;
 }
  
 // Include config file
 require_once "config.php";
- 
+include_once "template.php";
+
 // Define variables and initialize with empty values
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
@@ -93,8 +93,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link type="text/css" href="../css/style.css" rel="stylesheet"/>
     <style>
-        body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
     </style>
 </head>
@@ -105,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         <?php 
         if(!empty($login_err)){
-            echo '<div class="alert alert-danger">' . $login_err . '</div>';
+            echo "<div class=\"alert alert-danger\">" . $login_err . "</div>";
         }        
         ?>
 

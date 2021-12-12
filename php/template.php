@@ -38,9 +38,27 @@
             <li style="margin-top: 15px" class="nav-item">
               <a class="nav-link active" href="store.php">Merchandise</a>
             </li>
-            <li style="margin-top: 15px" class="nav-item">
-              <a class="nav-link active" href="register.php">Register</a>
-            </li>          
+            <?php
+            session_start();
+            if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+              echo "
+              <li style=\"margin-top: 15px\" class=\"nav-item\">
+                <a class=\"nav-link active\" href=\"logout.php\">Log Out</a>
+              </li>
+              <li class=\"nav-item\" style=\"margin-top: 15px\"> <a class=\"nav-link disabled\"> Currently logged in as: " . $_SESSION["username"] . " </a> </li>
+              ";
+            }
+            else{
+              echo "
+              <li style=\"margin-top: 15px\" class=\"nav-item\">
+                <a class=\"nav-link active\" href=\"register.php\">Register</a>
+              </li>
+              <li style=\"margin-top: 15px\" class=\"nav-item\">
+                <a class=\"nav-link active\" href=\"login.php\">Log In</a>
+              </li>
+              ";
+            }
+            ?>            
             </ul>
         </div>
       </div>
