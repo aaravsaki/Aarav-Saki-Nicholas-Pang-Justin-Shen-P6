@@ -7,7 +7,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="../css/paradiso.css" />
+    <link type="text/css" rel="stylesheet" href="../css/paradisobg.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,18 +15,16 @@
   </head>
   <body>
   <?php include_once 'template.php';?>
+  <div class="bg1">
     <h1>Paradiso</h1>
-    <div style="text-align: center;">
-    <img src = "https://media.discordapp.net/attachments/700479408263397416/918000257755938827/-VBWvHn1Skz8LVzmcrTD4w2Fhellthumb800.png"
-    >
-</div> 
+ 
 <p>
       Paradiso is the equivalent of heaven but it references space. It is also a representation of the old geocentric model of space. Each sphere of heaven represents a planet It is described as blindingly bright as God sheds light onto heaven.
 </p>
 
-      <div id="toc_container">
+      <div class="TOC">
 <h2>Contents </h2>
-<ul class="toc_list">
+<ul class="toc_list" style="border:3px; border-style:solid; border-color:#FFD700; padding: 1em;">
   <li><a href="#one">Moon</a></li>
   <li><a href="#two">Mercury</a></li>
   <li><a href="#three">Venus</a></li>
@@ -105,3 +103,4 @@
 
   </body>
 </html>
+</div>
