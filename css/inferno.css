@@ -1,36 +1,59 @@
 body {
-  background-image: linear-gradient(darkRed, black);
+  /* This is the simple gradient (fade) background for the "Inferno" page */
+  background-image:linear-gradient(darkred,black); 
+  
   background-repeat: no-repeat;
-  background-size: auto;
-  font-family:Luminari, fantasy ;
+  background-size:10000px;
+  background-position: center;
+  font-family: Luminari, fantasy; 
+  background-attachment: fixed;
+
 }
 
 h1 {
-  color: Gold;
+  color: DarkRed;
   font-size: 50px;
   text-align: center;
-  font-family:Luminari, fantasy ;
+  font-family: Luminari, fantasy;
 }
 
 h2 {
-color: Silver;
+  color: Black;
   font-size: 30px;
   text-align: center;
   margin-top: 100px;
 }
 
-p { 
-  margin-right:700px; 
-  margin-left: 700px;
-  color: silver;
+p {
+  margin-right: 300px;
+  margin-left: 300px;
+  color: BLack;
   text-align: center;
+}
+
+.one{
+
+  
+}
+
+
+.two
+
+{
 
 }
 
-.one {
-
- font-size: 18px;
- text-align: center;
+.TOC {
+text-align: center;
+margin-left: 400px;
+margin-right: 400px;
 }
 
 
+
+div.bg1 {
+  background-image: url(https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png);
+  background-position: center;
+  margin-right:500px;
+  margin-left: 500px;
+}

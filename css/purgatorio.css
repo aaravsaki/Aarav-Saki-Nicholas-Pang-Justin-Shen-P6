@@ -1,4 +1,5 @@
 body {
+  /* This is the simple gradient (fade) background for the "Inferno" page */
   background-image: linear-gradient(darkRed, black);
   background-repeat: no-repeat;
   background-size: auto;
@@ -20,13 +21,8 @@ h2 {
 }
 
 p {
-  margin-right: 700px;
-  margin-left: 700px;
+  margin-right: 400px;
+  margin-left: 400px;
   color: silver;
-  text-align: center;
-}
-
-.one {
-  font-size: 18px;
   text-align: center;
 }

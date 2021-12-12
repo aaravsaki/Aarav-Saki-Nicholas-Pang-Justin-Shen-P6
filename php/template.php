@@ -38,7 +38,10 @@
             <li style="margin-top: 15px" class="nav-item">
               <a class="nav-link active" href="store.php">Merchandise</a>
             </li>
-          </ul>
+            <li style="margin-top: 15px" class="nav-item">
+              <a class="nav-link active" href="register.php">Register</a>
+            </li>          
+            </ul>
         </div>
       </div>
     </nav>
