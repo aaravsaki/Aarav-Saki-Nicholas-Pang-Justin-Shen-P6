@@ -28,7 +28,7 @@
       </p>
 <div class="TOC";> 
 <h2>Contents </h2>
-<ul class="toc_list"style="border:3px; border-style:solid; border-color:#000000; padding: 1em;">
+<ul class="toc_list"style="border:3px; border-style:solid; border-color:#FFD700; padding: 1em;">
   <li><a href="#one">Limbo</a></li>
   <li><a href="#two">Lust</a></li>
   <li><a href="#three">Gluttony</a></li>

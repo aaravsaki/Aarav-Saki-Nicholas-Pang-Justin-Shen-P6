@@ -7,7 +7,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="../css/purgatorio.css" />
+    <link type="text/css" rel="stylesheet" href="../css/purgatoriobg.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +15,7 @@
   </head>
   <body>
   <?php include_once 'template.php';?>
+  <div class="bg1">
     <h1>Purgatorio</h1>
    
 <p>
@@ -22,9 +23,9 @@
 
 </p>
 
-<div id="toc_container">
+<div class="TOC">
 <h2>Contents </h2>
-<ul class="toc_list" >
+<ul class="toc_list" style="border:3px; border-style:solid; border-color:#000000; padding: 1em;" >
   <li><a href="#one">Ante-Purgatory</a></li>
   <li><a href="#two">Pride</a></li>
   <li><a href="#three">Envy</a></li>
@@ -98,3 +99,4 @@
 
   </body>
 </html>
+</div>
