@@ -3,7 +3,7 @@
 //Note to self: change these later for heroku
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'admin');
+define('DB_PASSWORD', '');
 define('DB_NAME', 'divinecomedy');
  
 /* Attempt to connect to MySQL database */
