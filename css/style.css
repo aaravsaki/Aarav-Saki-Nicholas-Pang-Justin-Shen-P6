@@ -2,11 +2,15 @@
 */
 
 body {
-	font-family: 'Luminari', fantasy;
-	font-weight: 400;
-	margin: 0px;
-	overflow-x: hidden;
-	padding: 0px;
+  font-family: "Luminari", fantasy;
+  font-weight: 400;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+}
+
+head {
+  font-size: 50px;
 }
 
 h1,
@@ -14,7 +18,7 @@ h2,
 h3,
 h4,
 h5 {
-	margin: 0
+  margin: 0;
 }
 
 h1,
@@ -23,142 +27,141 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul,
 ol {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a,
 a:hover,
 a:focus {
-	-webkit-text-decoration: none;
-	-moz-text-decoration: none;
-	-ms-text-decoration: none;
-	-o-text-decoration: none;
-	text-decoration: none;
-	transition: ease all 0.5s;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  transition: ease all 0.5s;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 input,
 textarea {
-	outline: none;
-	border: none;
-	resize: none;
+  outline: none;
+  border: none;
+  resize: none;
 }
 
 /* Css for Product Boxes
 */
 .main-product {
-	background-color: #353535;
-	background-image: url('');
-	padding-bottom: 180px;
-	background-position: center center;
+  background-color: #353535;
+  background-image: url("");
+  padding-bottom: 180px;
+  background-position: center center;
 }
 
 .find-box {
-	max-width: 780px;
-	margin: 0 auto;
-	width: 100%;
-	padding: 92px 0px 75px 0px;
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 92px 0px 75px 0px;
 }
 
 .find-box h1 {
-	font-family: 'Luminari', fantasy;
-	font-weight: 500;
-	color: #fff;
-	font-size: 48px;
-	text-align: center;
-	padding-bottom: 22px;
+  font-family: "Luminari", fantasy;
+  font-weight: 500;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 22px;
 }
 
 .find-box h4 {
-	font-family: 'Luminari', fantasy;
-	font-weight: 300;
-	color: #fff;
-	font-size: 22px;
-	text-align: center;
-	padding-bottom: 22px;
+  font-family: "Luminari", fantasy;
+  font-weight: 300;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 22px;
 }
 
-.product-sh {}
+.product-sh {
+}
 
 .form-sh input {
-	background: none;
-	border: none;
-	border-bottom: 1px solid #ffffff;
-	width: 100%;
-	min-height: 55px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 300;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  min-height: 55px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
 }
 .form-sh .btn-default {
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid #fff;
-	border-radius: 0px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 300;
-	min-height: 55px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  min-height: 55px;
 }
 
 .form-sh a.btn {
-	background: #ffffff;
-	color: #ffffff;
-	min-height: 55px;
-	width: 100%;
-	line-height: 38px;
-	font-size: 22px;
-	font-weight: 500;
-	border-radius: 3px;
+  background: #ffffff;
+  color: #ffffff;
+  min-height: 55px;
+  width: 100%;
+  line-height: 38px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 3px;
 }
 
 .product-sh p a {
-	color: #330F0F;
+  color: #330f0f;
 }
 
 .product-sh p a:hover,
 .product-sh p a:focus {
-	color: #330F0F;
+  color: #330f0f;
 }
 
 .box-img {
-	background: #000000;
-	text-align: center;
-	padding-bottom: 300px;
-	max-height: 400px;
-	margin-bottom: 60px;
-	position: relative;
-	border-bottom: solid #121016 5px;
-	transition: ease all 0.5s;
+  background: #000000;
+  text-align: center;
+  padding-bottom: 300px;
+  max-height: 400px;
+  margin-bottom: 60px;
+  position: relative;
+  border-bottom: solid #121016 5px;
+  transition: ease all 0.5s;
 }
 
 .box-img h4 {
-	color: #fff;
-	padding-top: 35px;
-	padding-bottom: 30px;
-	font-size: 25px;
-	font-weight: 500;
-	transition: all 0.3s ease 0s;
-	letter-spacing: 0px;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 0px;
 }
 
 .box-img:hover {
-	cursor: pointer;
-	transform: scale(1.2);
-	background: #38273f;
+  cursor: pointer;
+  transform: scale(1.2);
+  background: #38273f;
 }
-
-

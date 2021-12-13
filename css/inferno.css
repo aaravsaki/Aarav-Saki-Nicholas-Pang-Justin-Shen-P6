@@ -1,19 +1,18 @@
 body {
   /* This is the simple gradient (fade) background for the "Inferno" page */
   background-image: url(https://media.npr.org/assets/artslife/arts/2010/02/dantesinferno/inferno_archive-becf91cdf5140a602f77b5514b518ba7db4db4f6.jpg);
-  
+
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  font-family: Luminari, fantasy; 
+  font-family: Luminari, fantasy;
   background-attachment: fixed;
 
-  max-width:cover;
-  min-width:2000px;
+  max-width: cover;
 }
 
-a{
-  color:Gold
+a {
+  color: Gold;
 }
 h1 {
   color: DarkRed;
@@ -36,31 +35,22 @@ p {
   text-align: center;
 }
 
-.one{
-
-  
+.one {
 }
 
-
-.two
-
-{
-
+.two {
 }
 
 .TOC {
-text-align: center;
-margin-left: 400px;
-margin-right: 400px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
-
-
 div.bg1 {
-  background-image: url(https://i.ytimg.com/vi/RxGURI4-CCE/hqdefault.jpg);
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRr4Lg4iRRWdj6iwRCY6k3SU9s6xEc2_zSupToc7CJ5NLfI8jId);
   background-position: center;
-  background-size: 100000px ;
-  margin-right:500px;
-  margin-left: 500px;
-  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10%;
+  margin-left: 10%;
 }
