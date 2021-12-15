@@ -29,16 +29,21 @@ h2 {
 }
 
 p {
-  margin-right: 300px;
-  margin-left: 300px;
   color: Silver;
-  text-align: center;
 }
 
 .one {
+  text-align: center;
+  margin-right: 15%;
+  margin-left: 50%;
+  margin-bottom: 270px;
 }
 
 .two {
+  text-align: center;
+  margin-right: 50%;
+  margin-left: 15%;
+  margin-bottom: 270px;
 }
 
 .TOC {
@@ -47,10 +52,24 @@ p {
   margin-right: 400px;
 }
 
+.headp {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 div.bg1 {
   background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRr4Lg4iRRWdj6iwRCY6k3SU9s6xEc2_zSupToc7CJ5NLfI8jId);
   background-position: center;
   background-size: cover;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.image1 {
+  float: right;
+  width: 400px;
+  height: 380px;
+  margin-right: 5%;
+  object-fit: cover;
+  border: 5px solid #c7a750;
 }
