@@ -2,11 +2,13 @@
 
 var balance = 0;
 window.setInterval(function () {
-  balance += 1000;
+  balance += 2000;
   document.getElementById("balance").innerHTML = balance;
 }, 1000);
 
+//https://stackoverflow.com/questions/47861996/php-sql-update-data-on-button-click
 // Merch Store Functionality
+var mugInventory = 0;
 var mugCost = 1800;
 function buyMug() {
  var purchased = confirm("Confirm Purchase for Skull Mug?");
@@ -15,7 +17,9 @@ function buyMug() {
   if (balance >= mugCost){
     balance -= mugCost;
     document.getElementById("balance").innerHTML = balance;
+    mugInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("MugInventory").innerHTML = mugInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Skull Mug");
@@ -26,6 +30,7 @@ function buyMug() {
  }
 };
 
+var posterInventory = 0;
 var posterCost = 1800;
 function buyPoster() {
  var purchased = confirm("Confirm Purchase for 7 Terraces Poster?");
@@ -34,7 +39,9 @@ function buyPoster() {
   if (balance >= posterCost){
     balance -= posterCost;
     document.getElementById("balance").innerHTML = balance;
+    posterInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("PosterInventory").innerHTML = posterInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase 7 Terraces Poster");
@@ -45,6 +52,7 @@ function buyPoster() {
  }
 };
 
+var bearInventory = 0;
 var bearCost = 1800;
 function buyHeavenBear() {
  var purchased = confirm("Confirm Purchase for Heavenly Bear Plush?");
@@ -53,7 +61,9 @@ function buyHeavenBear() {
   if (balance >= bearCost){
     balance -= bearCost;
     document.getElementById("balance").innerHTML = balance;
+    bearInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("BearInventory").innerHTML = bearInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Heavenly Bear Plush");
@@ -64,6 +74,7 @@ function buyHeavenBear() {
  }
 };
 
+var uWaterInventory = 0;
 var uWaterCost = 1800;
 function buyUnholyWater() {
  var purchased = confirm("Confirm Purchase for Vial of Unholy Water?");
@@ -72,7 +83,9 @@ function buyUnholyWater() {
   if (balance >= uWaterCost){
     balance -= uWaterCost;
     document.getElementById("balance").innerHTML = balance;
+    uWaterInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("UWaterInventory").innerHTML = uWaterInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Vial of Unholy Water");
@@ -83,6 +96,7 @@ function buyUnholyWater() {
  }
 };
 
+var goatShirtInventory = 0;
 var goatShirtCost = 3600;
 function buyGoatshirt() {
  var purchased = confirm("Confirm Purchase for Goat Shirt?");
@@ -91,7 +105,9 @@ function buyGoatshirt() {
   if (balance >= goatShirtCost){
     balance -= goatShirtCost;
     document.getElementById("balance").innerHTML = balance;
+    goatShirtInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("GoatShirtInventory").innerHTML = goatShirtInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Goat Shirt")
@@ -102,6 +118,7 @@ function buyGoatshirt() {
  }
 };
 
+var hWaterInventory = 0;
 var hWaterCost = 3600;
 function buyHolyWater() {
  var purchased = confirm("Confirm Purchase for Vial of Holy Water?");
@@ -110,7 +127,9 @@ function buyHolyWater() {
   if (balance >= hWaterCost){
     balance -= hWaterCost;
     document.getElementById("balance").innerHTML = balance;
+    hWaterInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("HWaterInventory").innerHTML = hWaterInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Vial of Holy Water")
@@ -121,6 +140,7 @@ function buyHolyWater() {
  }
 };
 
+var godShirtInventory = 0;
 var godShirtCost = 3600;
 function buyGodShirt() {
  var purchased = confirm("Confirm Purchase for I Love God Shirt?");
@@ -129,7 +149,9 @@ function buyGodShirt() {
   if (balance >= godShirtCost){
     balance -= godShirtCost;
     document.getElementById("balance").innerHTML = balance;
+    godShirtInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("GodShirtInventory").innerHTML = godShirtInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase I Love God Shirt")
@@ -140,6 +162,7 @@ function buyGodShirt() {
  }
 };
 
+var climbShirtInventory = 0;
 var climbShirtCost = 3600;
 function buyClimbShirt() {
  var purchased = confirm("Confirm Purchase for Ready To Climb Shirt?");
@@ -148,7 +171,9 @@ function buyClimbShirt() {
   if (balance >= climbShirtCost){
     balance -= climbShirtCost;
     document.getElementById("balance").innerHTML = balance;
+    climbShirtInventory += 1;
     alert("Purchase Successful")
+    document.getElementById("ClimbShirtInventory").innerHTML = climbShirtInventory;
   }
    else {
   alert("Not Enough Dante Coins To Purchase Ready To Climb Shirt")
@@ -158,3 +183,4 @@ function buyClimbShirt() {
   alert("Cancelled");
  }
 };
+

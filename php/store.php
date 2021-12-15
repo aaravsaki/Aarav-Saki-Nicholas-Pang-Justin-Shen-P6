@@ -42,56 +42,56 @@
                <div class="row clearfix">
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyMug()">
-                           <h4>Mug De Scientia <br/> (1800 Denarios)</h4>
+                           <h4>Mug De Scientia <br/> (1800 Denarios) <br/> Inventory: <span id = "MugInventory">0</span> </h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyPoster()">
-                           <h4>Septem Solaria Pallio <br/> (1800 Denarios)</h4>
+                           <h4>Septem Solaria Pallio <br/> (1800 Denarios) <br/> Inventory: <span id = "PosterInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyHeavenBear()">
-                           <h4>Caelum Ursum <br/> (1800 Denarios)</h4>
+                           <h4>Caelum Ursum <br/> (1800 Denarios) <br/> Inventory: <span id = "BearInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyUnholyWater()">
-                           <h4>Aqua Profanus <br/> (1800 Denarios)</h4>
+                           <h4>Aqua Profanus <br/> (1800 Denarios) <br/> Inventory: <span id = "UWaterInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyGoatshirt()">
-                           <h4>Tunic Caprae <br/> (3500 Denarios)</h4>
+                           <h4>Tunic Caprae <br/> (3500 Denarios) <br/> Inventory: <span id = "GoatShirtInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyClimbShirt()">
-                           <h4>Scandere Tunicam <br/> (3500 Denarios)</h4>
+                           <h4>Scandere Tunicam <br/> (3500 Denarios) <br/> Inventory: <span id = "ClimbShirtInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyGodShirt()">
-                           <h4>Deus Tunicam Amo <br/> (3500 Denarios)</h4>
+                           <h4>Deus Tunicam Amo <br/> (3500 Denarios) <br/> Inventory: <span id = "GodShirtInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">                     
                         <div class="box-img" onclick="buyHolyWater()">
-                           <h4>Aqua Sanctae <br/> (3500 Denarios)</h4>
+                           <h4>Aqua Sanctae <br/> (3500 Denarios) <br/> Inventory: <span id = "HWaterInventory">0</span></h4>
                            <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
                         </div>
                      </a>
