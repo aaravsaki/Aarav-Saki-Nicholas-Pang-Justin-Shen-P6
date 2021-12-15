@@ -21,6 +21,8 @@ $sql = "CREATE TABLE IF NOT EXISTS users (
     balance INT NOT NULL
 )";
 
+
+
 if (mysqli_query($link, $sql)) {
   } else {
     echo "Error creating table: " . mysqli_error($link);
