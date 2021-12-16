@@ -48,8 +48,8 @@
     <div>
       
         <h2 id="one"> Limbo </h2>
-<img src="https://prod-wombo-paint.s3.amazonaws.com/exports/1ef1374a-d0b3-4b0d-a2e8-ed8e58970cde/blank_tradingcard.jpg?AWSAccessKeyId=AKIAWGXQXQ6WCOB7PP5J&Signature=YdQRRdWtTBYbPSMTsgn6dhKxZUQ%3D&Expires=1639611938"
-          class="image1" >
+<img src="../limboinferno.jpg"
+          class="image1">
       <p class="two"; >
           
         The first circle is one of mercy. Here lie the unbaptized and non-christian who have not sinned. Those that reside within this circle are not tormented and only grieve that they must live eternally without God’s Grace.
@@ -104,7 +104,10 @@
       class="image1">
       <p class="two">
         The ninth and final circle houses Lucifer and three other souls. Lucifer is depicted with three heads and is suspended in a huge lake of ice. Each of the three heads are chewing on the most treacherous souls in history (According to Dante). Judas, the man who revealed Jesus to a group of people who had come arrest him, Marcus, one of the two men who led the assassination of Julius ceasar, and Galius, the other man who led that event.
-        </p>
+      
+      
+      
+      </p>
 
     </div>
       

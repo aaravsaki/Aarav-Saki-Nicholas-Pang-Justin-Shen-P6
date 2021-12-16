@@ -63,6 +63,7 @@ div.bg1 {
   background-size: cover;
   margin-right: 12%;
   margin-left: 12%;
+  min-height: cover;
 }
 
 .image1 {

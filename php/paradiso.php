@@ -7,7 +7,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="../css/paradisobg.css" />
+    <link type="text/css" rel="stylesheet" href="../css/paradiso.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
   <div class="bg1">
     <h1>Paradiso</h1>
  
-<p>
+<p class="headp">
       Paradiso is the equivalent of heaven but it references space. It is also a representation of the old geocentric model of space. Each sphere of heaven represents a planet It is described as blindingly bright as God sheds light onto heaven.
 </p>
 
@@ -45,7 +45,7 @@
      
         <h2 id="one"> Moon </h2>
 
-      <p class="one">
+      <p class="two">
       The souls who dwell here practice the belief on the inconstant. The souls who were always in constant motion get to live on the moon. People who gave up their vows for a good cause end up here.
 
       </p>
@@ -55,7 +55,7 @@
 
       </p>
         <h2 id="three"> Venus </h2>
-      <p class="one">
+      <p class="two">
       The third sphere, Venus, is home to lovers as Venus is the god of love in the roman mythos.
 
       </p>
@@ -66,7 +66,7 @@
 
       </p>
       <h2 id="five"> Mars </h2>
-        <p class="one">
+        <p class="two">
         The fifth sphere is Mars and houses “Warriors of Faith” or people who died in battle in the name of god. It contains these people because Mars in Roman mythology is the god of war.
 
 
@@ -79,7 +79,7 @@
 
       <h2 id="seven"> Saturn </h2>
 
-        <p class="one">The seventh sphere represents Saturn and is home to Contemplatives or advanced thinkers. 
+        <p class="two">The seventh sphere represents Saturn and is home to Contemplatives or advanced thinkers. 
 
           
         </p>
@@ -89,7 +89,7 @@
 
         </p>
       <h2 id="nine"> The Primum Mobile </h2>
-      <p class="one">
+      <p class="two">
       The Primum Mobile is the last physical sphere of Heaven and realm of the Angels. Within this sphere lies nine other circles representing the Angelic Hierarchy
 
         </p>
