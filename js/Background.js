@@ -2,7 +2,7 @@
 
 var balance = 0;
 window.setInterval(function () {
-  balance += 2000;
+  balance += 51;
   document.getElementById("balance").innerHTML = balance;
 }, 1000);
 

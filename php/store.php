@@ -43,56 +43,56 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyMug()">
                            <h4>Mug De Scientia <br/> (1800 Denarios) <br/> Inventory: <span id = "MugInventory">0</span> </h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Skull%20Mug.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyPoster()">
                            <h4>Septem Solaria Pallio <br/> (1800 Denarios) <br/> Inventory: <span id = "PosterInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Moutain%20Poster.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyHeavenBear()">
                            <h4>Caelum Ursum <br/> (1800 Denarios) <br/> Inventory: <span id = "BearInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Heaven%20Bear.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyUnholyWater()">
                            <h4>Aqua Profanus <br/> (1800 Denarios) <br/> Inventory: <span id = "UWaterInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Unholy%20Water.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyGoatshirt()">
                            <h4>Tunic Caprae <br/> (3500 Denarios) <br/> Inventory: <span id = "GoatShirtInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Goat%20Shirt.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyClimbShirt()">
                            <h4>Scandere Tunicam <br/> (3500 Denarios) <br/> Inventory: <span id = "ClimbShirtInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Climb%20Shirt.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                         <div class="box-img" onclick="buyGodShirt()">
                            <h4>Deus Tunicam Amo <br/> (3500 Denarios) <br/> Inventory: <span id = "GodShirtInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/God%20Shirt.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">                     
                         <div class="box-img" onclick="buyHolyWater()">
                            <h4>Aqua Sanctae <br/> (3500 Denarios) <br/> Inventory: <span id = "HWaterInventory">0</span></h4>
-                           <img src="https://drive.google.com/uc?export=view&id=1AAHmtoYHyj3XZ7xAx5UfPEnl-_THrvn_" alt="" />
+                           <img src="https://github.com/nintob/Aarav-Saki-Nicholas-Pang-Justin-Shen-P6/blob/main/Merch%20Images/Holy%20Water.jpg?raw=true" alt="" />
                         </div>
                      </a>
                   </div>
