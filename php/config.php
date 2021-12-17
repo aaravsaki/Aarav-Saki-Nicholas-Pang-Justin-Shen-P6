@@ -21,10 +21,30 @@ $sql = "CREATE TABLE IF NOT EXISTS users (
     balance INT NOT NULL
 )";
 
+$sql2 = "CREATE TABLE IF NOT EXISTS items (
+    item_id INT NOT NULL PRIMARY KEY,
+    item_name VARCHAR(100) NOT NULL
+)";
 
+$sql3 = "CREATE TABLE IF NOT EXISTS user_items (
+    person_id INT NOT NULL,
+    item_id INT NOT NULL,
+    FOREIGN KEY (person_id) REFERENCES users(id),
+    FOREIGN KEY (item_id) REFERENCES items(item_id)
+)";
 
 if (mysqli_query($link, $sql)) {
   } else {
     echo "Error creating table: " . mysqli_error($link);
+}
+
+if (mysqli_query($link, $sql2)) {
+} else {
+  echo "Error creating table: " . mysqli_error($link);
+}
+
+if (mysqli_query($link, $sql3)) {
+} else {
+  echo "Error creating table: " . mysqli_error($link);
 }
 ?>

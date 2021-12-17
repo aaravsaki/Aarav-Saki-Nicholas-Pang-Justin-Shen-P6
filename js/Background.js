@@ -1,17 +1,18 @@
 //Dante Coin Mechanic Change posititions as needed
 
-var balance = 0;
+/*var balance = 0;
 window.setInterval(function () {
   balance += 51;
   document.getElementById("balance").innerHTML = balance;
-}, 1000);
-
-//https://stackoverflow.com/questions/47861996/php-sql-update-data-on-button-click
+}, 1000);*/
 // Merch Store Functionality
+
+var balance = document.getElementById("balance");
+
 var mugInventory = 0;
 var mugCost = 1800;
 function buyMug() {
- var purchased = confirm("Confirm Purchase for Skull Mug?");
+  var purchased = confirm("Confirm Purchase for Skull Mug?");
  
  if (purchased == true) {
   if (balance >= mugCost){

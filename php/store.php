@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -15,8 +17,23 @@
       <?php
       include_once "template.php";
       ?>
+      <script src="../js/jquery-3.6.0.js"></script>
       <script type="text/javascript" src="../js/Background.js"></script>
 
+      <script>
+         function refresh_balance()
+         {
+         $.ajax({
+            url: 'balancethingy.php',
+            type: 'POST',
+            data: 51, 
+            success: function(data){
+               $('#balance').html(data);
+            }
+         })
+         }
+         setInterval(function(){ refresh_balance(); }, 1000);
+      </script>
 
    </head>
    <body>
@@ -28,7 +45,7 @@
                   <div class="find-box">
                      <h1>The Finest Wares From<br>The Biblical World.</h1>
                      <h4>Unique Products You Cannot Find Anywhere Else.</h4>
-                     <h4>Dante Coins: <span id = "balance">0</span></h4>
+                     <h4>Dante Coins: <span id = "balance"></span></h4>
                      <div class="product-sh">
                         <div class="col-sm-6">
                         </div>
