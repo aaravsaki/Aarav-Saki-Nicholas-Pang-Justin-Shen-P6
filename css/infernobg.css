@@ -1,5 +1,4 @@
 body {
-  /* This is the simple gradient (fade) background for the "Inferno" page */
   background-image: url(https://media.npr.org/assets/artslife/arts/2010/02/dantesinferno/inferno_archive-becf91cdf5140a602f77b5514b518ba7db4db4f6.jpg);
 
   background-repeat: no-repeat;
@@ -30,20 +29,21 @@ h2 {
 
 p {
   color: Silver;
+  font-size: 20px;
 }
 
 .one {
   text-align: center;
-  margin-right: 15%;
-  margin-left: 50%;
-  margin-bottom: 270px;
+  margin-right: 10%;
+  margin-left: 60%;
+  margin-bottom: 300px;
 }
 
 .two {
   text-align: center;
-  margin-right: 50%;
-  margin-left: 15%;
-  margin-bottom: 270px;
+  margin-right: 60%;
+  margin-left: 10%;
+  margin-bottom: 300px;
 }
 
 .TOC {
@@ -71,6 +71,15 @@ div.bg1 {
   width: 400px;
   height: 380px;
   margin-right: 5%;
+  object-fit: cover;
+  border: 5px solid #c7a750;
+}
+
+.image2 {
+  float: left;
+  width: 400px;
+  height: 380px;
+  margin-left: 5%;
   object-fit: cover;
   border: 5px solid #c7a750;
 }

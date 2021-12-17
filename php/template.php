@@ -16,7 +16,7 @@
             <li class="nav-item">
               <a class="nav-link active" href="#"
                 ><img
-                  src="https://toppng.com/uploads/preview/broadway-clipart-drama-faces-drama-logo-11562970981wsznppujg6.png"
+                  src="../Merch Images/theatermasks.jpg"
                   width="50"
                   height="50"
                 />

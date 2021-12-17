@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+   <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 15px;
+      background: #4C4C4C  ;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #BBBBBB ;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #D2D2D2 ;
+      border-radius: 10px;
+    }
+</style>
       <meta charset="UTF-8">
       <title>The Greatest Store</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
