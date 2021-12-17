@@ -1,58 +1,54 @@
 body {
-  /* This is the simple gradient (fade) background for the "Inferno" page */
-  background-image: url(https://cdn.mos.cms.futurecdn.net/M7fDTpDnJcZ4dt3myngzxi.jpg);
-  
+  background-image: url(https://cdn.inprnt.com/thumbs/f2/fc/f2fc83d2b793c2e9d54e5da2bffcd830.jpg?response-cache-control=max-age=2628000);
+
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  font-family: Luminari, fantasy; 
+  font-family: Luminari, fantasy;
   background-attachment: fixed;
 
-  max-width:cover;
-  min-width:2000px;
+  max-width: cover;
 }
 
-a{
-  color:gold
+a {
+  color: Black;
 }
 h1 {
-  color: palegoldenrod;
+  color: Black;
   font-size: 50px;
   text-align: center;
   font-family: Luminari, fantasy;
 }
 
 h2 {
-  color: palegoldenrod;
+  color: Black;
   font-size: 30px;
   text-align: center;
   margin-top: 100px;
 }
 
 p {
- 
   color: Silver;
- 
 }
 
 .one {
   text-align: center;
-  margin-right: 15%;
+  margin-right: 10%;
   margin-left: 50%;
-  margin-bottom: 270px;
+  margin-bottom: 300px;
 }
 
 .two {
   text-align: center;
   margin-right: 50%;
-  margin-left: 15%;
-  margin-bottom: 270px;
+  margin-left: 10%;
+  margin-bottom: 300px;
 }
 
 .TOC {
-text-align: center;
-margin-left: 400px;
-margin-right: 400px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .headp {
@@ -62,7 +58,7 @@ margin-right: 400px;
 }
 
 div.bg1 {
-  background-image: url(https://www.announcementconverters.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/I/L/ILU11C.jpg);
+  background-image: url(https://wallpaperaccess.com/full/2200497.jpg);
   background-position: center;
   background-size: cover;
   margin-right: 12%;
@@ -75,6 +71,15 @@ div.bg1 {
   width: 400px;
   height: 380px;
   margin-right: 5%;
+  object-fit: cover;
+  border: 5px solid #c7a750;
+}
+
+.image2 {
+  float: left;
+  width: 400px;
+  height: 380px;
+  margin-left: 5%;
   object-fit: cover;
   border: 5px solid #c7a750;
 }
