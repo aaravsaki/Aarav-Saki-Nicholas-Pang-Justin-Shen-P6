@@ -2,6 +2,28 @@
 <!DOCTYPE html>  
 <html lang="en">
   <head>
+  <style>
+  
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 15px;
+      background: #300000  ;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #210404 ;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #B37A09 ;
+      border-radius: 10px;
+    }
+
+  </style>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
