@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -21,18 +19,7 @@
       <script type="text/javascript" src="../js/Background.js"></script>
 
       <script>
-         function refresh_balance()
-         {
-         $.ajax({
-            url: 'balancethingy.php',
-            type: 'POST',
-            data: 51, 
-            success: function(data){
-               $('#balance').html(data);
-            }
-         })
-         }
-         setInterval(function(){ refresh_balance(); }, 1000);
+
       </script>
 
    </head>

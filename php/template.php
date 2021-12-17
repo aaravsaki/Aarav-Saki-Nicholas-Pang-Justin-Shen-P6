@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php"
+              <a class="nav-link active" href="#"
                 ><img
                   src="https://toppng.com/uploads/preview/broadway-clipart-drama-faces-drama-logo-11562970981wsznppujg6.png"
                   width="50"
