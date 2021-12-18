@@ -1,6 +1,7 @@
 //Dante Coin Mechanic Change posititions as needed
 // Merch Store Functionality
 
+
 var balance = 0;
 function refresh_balance() {
   $.ajax({
@@ -248,3 +249,4 @@ function buyHolyWater() {
     alert("Cancelled")
   }
 }
+

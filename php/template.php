@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark  ">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -38,6 +38,7 @@
             <li style="margin-top: 15px" class="nav-item">
               <a class="nav-link active" href="store.php">Merchandise</a>
             </li>
+
             <?php
             session_start();
             if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
@@ -46,6 +47,11 @@
                 <a class=\"nav-link active\" href=\"logout.php\">Log Out</a>
               </li>
               <li class=\"nav-item\" style=\"margin-top: 15px\"> <a class=\"nav-link disabled\"> Currently logged in as: " . $_SESSION["username"] . " </a> </li>
+              <div style= \"text-align: right\">   
+              <li style=\"margin-top: 15px\" class=\"nav-item\">
+              <a class=\"nav-link active\"> Dante Coins: <span id = \"balance\">0</span></a>
+            </li>  
+            </div>
               ";
             }
             else{
@@ -58,7 +64,8 @@
               </li>
               ";
             }
-            ?>            
+            ?>       
+
             </ul>
         </div>
       </div>
