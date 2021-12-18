@@ -42,7 +42,7 @@
       </script>
 
    </head>
-   <body>
+   <body onload="refreshInventory()">
 
       <div class="page-content-product">
          <div class="main-product">
