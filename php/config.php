@@ -4,11 +4,14 @@
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'divinecomedy');
  
 /* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
  
+$sql4 = "CREATE DATABASE IF NOT EXISTS divinecomedy";
+mysqli_query($link, $sql4);
+$db_select = mysqli_select_db($link, "divinecomedy");
+
 // Check connection
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());

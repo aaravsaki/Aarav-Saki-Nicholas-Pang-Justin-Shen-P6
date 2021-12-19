@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-   <style>
-    /* width */
-    ::-webkit-scrollbar {
-      width: 15px;
-      background: #4C4C4C  ;
-    }
+      <style>
+         /* width */
+         ::-webkit-scrollbar {
+         width: 15px;
+         background: #4C4C4C  ;
+         }
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 5px #BBBBBB ;
-      border-radius: 10px;
-    }
+         /* Track */
+         ::-webkit-scrollbar-track {
+         box-shadow: inset 0 0 5px #BBBBBB ;
+         border-radius: 10px;
+         }
 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: #D2D2D2 ;
-      border-radius: 10px;
-    }
-</style>
+         /* Handle */
+         ::-webkit-scrollbar-thumb {
+         background: #D2D2D2 ;
+         border-radius: 10px;
+         }
+      </style>
       <meta charset="UTF-8">
       <title>The Greatest Store</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
    
-      <link rel="stylesheet" href="../css/bootstrap.min.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      <link type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
-      
       />
       <link type="text/css" rel="stylesheet" href="../css/style.css">
-      <?php
-      include_once "template.php";
-      ?>
       <script src="../js/jquery-3.6.0.js"></script>
       <script type="text/javascript" src="../js/Background.js"></script>
 
-      <script>
-
-      </script>
-
    </head>
    <body onload="refreshInventory()">
+      <?php
+         include_once "template.php";
+      ?>
       <div class="page-content-product">
          <div class="main-product">
             <div class="container">
