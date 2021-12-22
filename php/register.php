@@ -126,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         #test{
             background-color: rgba(255,255,255,0.15);
             margin-top: 2%; 
-            margin-bottom: 8%;
+            margin-bottom: 4.5%;
         }
     </style>
 </head>
