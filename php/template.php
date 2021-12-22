@@ -41,6 +41,7 @@
 
             <?php
             session_start();
+            // If logged in, show balance and logout on navbar
             if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
               echo "
               <li style=\"margin-top: 15px\" class=\"nav-item\">

@@ -51,11 +51,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 
                 // Check if username exists, if yes then verify password
                 if(mysqli_stmt_num_rows($stmt) == 1){                    
-                    // Bind result variables
                     mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
                     if(mysqli_stmt_fetch($stmt)){
                         if(password_verify($password, $hashed_password)){
-                            // Password is correct, so start a new session
                             session_start();
                             
                             // Store data in session variables
@@ -66,7 +64,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             // Redirect user to welcome page
                             header("location: inferno.php");
                         } else{
-                            // Password is not valid, display a generic error message
                             $login_err = "Invalid username or password.";
                         }
                     }
@@ -75,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     $login_err = "Invalid username or password.";
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Something went wrong. Please try again later.";
             }
 
             // Close statement

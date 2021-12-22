@@ -54,6 +54,8 @@ function refreshInventory(){
   });
 }
 
+
+/* Ajax functions to send request for update query upon user purchase */
 var MugInventory = 0;
 var MugCost = 1800;
 function buyMug() {
