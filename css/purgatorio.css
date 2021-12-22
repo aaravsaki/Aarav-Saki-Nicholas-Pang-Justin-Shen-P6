@@ -29,18 +29,19 @@ h2 {
 
 p {
   color: Silver;
+  font-size: 20px;
 }
 
 .one {
   text-align: center;
   margin-right: 10%;
-  margin-left: 50%;
+  margin-left: 56%;
   margin-bottom: 300px;
 }
 
 .two {
   text-align: center;
-  margin-right: 50%;
+  margin-right: 60%;
   margin-left: 10%;
   margin-bottom: 300px;
 }
@@ -82,4 +83,12 @@ div.bg1 {
   margin-left: 5%;
   object-fit: cover;
   border: 5px solid #c7a750;
+}
+.line1{
+  color: #000000;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+ opacity: 1;
+ 
 }

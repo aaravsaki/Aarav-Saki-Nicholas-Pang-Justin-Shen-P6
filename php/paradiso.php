@@ -30,7 +30,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="../css/paradisobg.css" />
+    <link type="text/css" rel="stylesheet" href="../css/paradiso.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -74,6 +74,7 @@
       The souls who dwell here practice the belief on the inconstant. The souls who were always in constant motion get to live on the moon. People who gave up their vows for a good cause end up here.
 
       </p>
+      <hr class="line1" size="5%">
         <h2 id="two"> Mercury </h2>
         <img src="../Merch Images/Mercury.jpg"
           class="image2">
@@ -81,13 +82,15 @@
       Mercury, the second sphere, is the closest planet to the sun so the souls that were ambitious in their life get to live on Mercury. The sun also represents God, as the light of the ambitious pales in comparison to the glory of god just as Mercury pales in size compared to the sun.
 
       </p>
+      <hr class="line1" size="5%">
         <h2 id="three"> Venus </h2>
         <img src="../Merch Images/Venus.jpg"
           class="image1">
       <p class="two">
-      The third sphere, Venus, is home to lovers as Venus is the god of love in the roman mythos.
+      The third sphere, Venus, is home to lovers as Venus is the god of love in the roman mythos. This is  the planet of the lovers, who were deficient in the virtue of temperance.
 
       </p>
+      <hr class="line1" size="5%">
         <h2 id="four"> The Sun </h2>
         <img src="../Merch Images/The SUn.jpg"
           class="image2">
@@ -96,6 +99,7 @@
 
 
       </p>
+      <hr class="line1" size="5%">
       <h2 id="five"> Mars </h2>
       <img src="../Merch Images/Mars.jpg"
           class="image1">
@@ -104,6 +108,7 @@
 
 
           <p>
+          <hr class="line1" size="5%">
       <h2 id="six"> Jupiter </h2>
       <img src="../Merch Images/Jupiter.jpg"
           class="image2">
@@ -111,15 +116,16 @@
         The sixth sphere represents Jupiter and is home to the greatest rulers of the past. Monarchs like Constantine reside here.
 
           </p>
-
+          <hr class="line1" size="5%">
       <h2 id="seven"> Saturn </h2>
       <img src="../Merch Images/Saturn.jpg"
           class="image1">
 
-        <p class="two">The seventh sphere represents Saturn and is home to Contemplatives or advanced thinkers. 
+        <p class="two">The seventh sphere represents Saturn and is home to Contemplatives or advanced thinkers, who embody temperance.
 
           
         </p>
+        <hr class="line1" size="5%">
       <h2 id="eight"> The Fixed Stars</h2>
       <img src="../Merch Images/fixed stars.jpg"
           class="image2">
@@ -127,6 +133,7 @@
       Fixed stars was the name for all the stars that seemed to not move and served as the outermost layer of the universe in a geocentric model. Various important christian individuals reside here like Saint Peter, The Virgin Mary, and Adam. The people here are the holiest of all people except for Jesus
 
         </p>
+        <hr class="line1" size="5%">
       <h2 id="nine"> The Primum Mobile </h2>
       <img src="../Merch Images/primummobile.jpg"
           class="image1">
@@ -134,6 +141,7 @@
       The Primum Mobile is the last physical sphere of Heaven and realm of the Angels. Within this sphere lies nine other circles representing the Angelic Hierarchy
 
         </p>
+        <hr class="line1" size="5%">
       <h2 id="ten"> The Empyrean </h2>
       <img src="../Merch Images/god2.jpg"
           class="image2">
