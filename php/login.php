@@ -101,10 +101,38 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     />
     <link type="text/css" href="../css/style.css" rel="stylesheet"/>
     <style>
-        .wrapper{ width: 360px; padding: 20px; }
+        .wrapper{ 
+            width: 20%;
+            margin: auto;
+            background-color: #333b3b;
+            padding: 10px;
+            color: white;
+        }
+        body{
+            background-image: url(https://cdn.inprnt.com/thumbs/f2/fc/f2fc83d2b793c2e9d54e5da2bffcd830.jpg?response-cache-control=max-age=2628000);
+            background-size: cover;
+        }
+        .title{
+            text-align: center; 
+            color: #2b2121;
+        }
+        .sub{
+            margin-top: 2%;
+        }
+        #test{
+            background-color: rgba(255,255,255,0.15);
+            margin-top: 2%; 
+            margin-bottom: 1.5%;
+        }
     </style>
 </head>
 <body>
+    <div id="test">
+        <h1 class="title"> "Into the eternal darkness, into fire and into ice." </h1>
+    </div>
+    <h5 style="text-align: center; margin-bottom: 1.5%;"> Greetings weary traveler, we (Aarav, Justin, Nick) are three AP CSP students who wanted to provide a brief overview of Dante Alighieri's Divine Comedy.
+        <br>You seem to be daring, but are you ready to enter these hallowed gates?</br>
+    </h5>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
@@ -114,7 +142,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             echo "<div class=\"alert alert-danger\">" . $login_err . "</div>";
         }        
         ?>
-
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
                 <label>Username</label>
@@ -127,7 +154,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary sub" value="Login">
             </div>
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>

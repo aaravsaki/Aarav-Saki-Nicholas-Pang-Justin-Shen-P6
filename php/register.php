@@ -105,10 +105,35 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     />
     <link type="text/css" href="../css/style.css" rel="stylesheet"/>
     <style>
-        .wrapper{ width: 360px; padding: 20px; }
+        .wrapper{ 
+            width: 20%;
+            margin: auto;
+            background-color: #200404;
+            padding: 10px;
+            color: white;
+        }
+        body{
+            background-image: url(https://media.npr.org/assets/artslife/arts/2010/02/dantesinferno/inferno_archive-becf91cdf5140a602f77b5514b518ba7db4db4f6.jpg);
+            background-size: cover;
+        }
+        .title{
+            text-align: center; 
+            color: #2b2121;
+        }
+        .sub{
+            margin-top: 2%;
+        }
+        #test{
+            background-color: rgba(255,255,255,0.15);
+            margin-top: 2%; 
+            margin-bottom: 8%;
+        }
     </style>
 </head>
 <body>
+    <div id="test">
+        <h1 class="title"> "Abandon all hope, ye who enter here..." </h1>
+    </div>
     <div class="wrapper">
         <h2>Sign Up</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -128,8 +153,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="" value="Submit">
-                <input type="reset" class="" value="Reset">
+                <input type="submit" class="sub" value="Submit">
+                <input type="reset" class="sub" value="Reset">
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
