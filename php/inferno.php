@@ -32,7 +32,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="../css/infernobg.css" />
+    <link type="text/css" rel="stylesheet" href="../css/infernobg1.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,16 +70,17 @@
     <script src="js/index.js"></script>  
     
     <div>
-      
+    
         <h2 id="one"> Limbo </h2>
         <img src="../Merch Images/limboinfenro.jpg"
           class="image1">
       <p class="two"; >
           
         The first circle is one of mercy. Here lie the unbaptized and non-christian who have not sinned. Those that reside within this circle are not tormented and only grieve that they must live eternally without God’s Grace.
-
-        </p>
         
+        </p>
+
+        <hr class="line1" size="5%">
         
         <h2 id="two"> Lust </h2>
         <img src="../Merch Images/lust.jpg" class="image2" >
@@ -88,11 +89,13 @@
         The second circle subsumes those overcome by lust. They face fierce winds that throw them throughout the land. The winds prevent them from experiencing rest and peace. People of note include: Cleopatra, Achilles, and Helen of Troy.
 
       </p>
+      <hr class="line1" size="5%">
         <h2 id="three"> Gluttony </h2>
         <img src="../Merch Images/gluttonyinferno.jpg" class="image1" >
       <p class="two">
         The third circle houses the most gluttonous of sinners. Cerberus is also found here acting as a warden. The punishment involves being rained on for all of eternity while laying in waste.
       </p>
+      <hr class="line1" size="5%">
         <h2 id="four"> Greed </h2>
         <img src="../Merch Images/greed.jpg" class="image2" >
 
@@ -100,6 +103,7 @@
         The fourth circle is guarded by Plutus, Greek god of wealth, hence it being the destination for those who are too greedy. People in this circle are forced to roll around large rocks whose size is based on their greed. The souls are then forced to roll their rocks into each other as a form of jousting.
 
       </p>
+      <hr class="line1" size="5%">
       <h2 id="five"> Anger </h2>
 
       <img src="../Merch Images/anger.jpg" class="image1" >
@@ -108,27 +112,32 @@
           The fifth circle is represented by the River Styx. Those who were too angry in their lives are forced to permanently drown and fight in the river. Many florentine politicians are found here
 
           <p>
+          <hr class="line1" size="5%">
       <h2 id="six"> Heresy </h2>
       <img src="../Merch Images/Heresy.jpg" class="image2" >
 
         <p class="one">
-          The sixth circle is home to all the heretics who are forced into burning coffins. People like Greek philosopher Epicurus and Holy Roman Emperor Frederick II can be found there.
+          The sixth circle is home to all the heretics who are forced into burning coffins. Heretics are simply people who deny that the soul is immortal, or those who don't believe in an afterlife. People like Greek philosopher Epicurus and Holy Roman Emperor Frederick II can be found there.
 
           </p>
-
+          <hr class="line1" size="5%">
       <h2 id="seven"> Violence </h2>
+      
       <img src="../Merch Images/Violence.jpg" class="image1" >
       
 
         <p class="two">The seventh circle is the broadest circle as it houses those who committed acts of violence. It is guarded by the minotaur and inhabited by the Centaurs. Violent conquerors of the past are forced into a lake of boiling blood and if any find their way out, they are pursued and shot by the centaurs to be returned to the lake. People who commit violence on themselves end up as trees who are eternally picked on by harpies. Those who commit violence against nature and the church are doomed to experience rain made of fire.
           
         </p>
+        <hr class="line1" size="5%">
       <h2 id="eight"> Fraud</h2>
       <img src="../Merch Images/Fraud.jpg" class="image2" >
       <p class="one">
         The eighth circle holds those that have committed some form of dishonest crime during their life. Thieves, Hypocrites, and Corrupt Politicians are all submitted to a pit of snakes while simultaneously being permanently on fire. Alchemists, who deceive people through their scam based potions, are inflicted with every possible disease at the same time. 
         </p>
+        <hr class="line1" size="5%">
       <h2 id="nine"> Treachery</h2>
+      
       <img src="../Merch Images/Betrayal.jpg" class="image1" >
       
       <p class="two">
